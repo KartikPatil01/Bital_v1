@@ -1,0 +1,57 @@
+*{
+    margin: 0px 20px 0px 20px ;
+    font-family: var(--primary-font);
+}
+
+.nav-bar{
+    margin-bottom: -10px;
+}
+.navbar-brand {
+    background-color: white;
+    margin-left: 0px;
+    width: 10vw;
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    letter-spacing: 2px;
+
+}
+.navbar-brand:hover > span{
+    color: red;
+}
+
+#nav-list {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55vw;
+}
+
+#button-action{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 30%;
+    margin-right: 0px;
+    
+}
+#button-action button{
+    
+
+    height: 40px;
+    width:100px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.activeLink{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}

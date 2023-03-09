@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+:root {
+    --primary-color:#0d2c43;
+    --primary-color_hover:	 #14466b;
+    --secondary-color:#3c9d9f;
+    --background:#dfdfdf;
+    --background_hover: #bfbfbf;
+    --background-highlight:#869092;
+    --primary-font:url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+    --secondary-font : url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap")
+  
+}
+
+body {
+    /* background-color:red; */
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+     /* overflow-y: hidden; */
+    overflow-x: hidden;
+    /* align-items: center; */
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

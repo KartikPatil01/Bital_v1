@@ -1,0 +1,153 @@
+
+@import url(https://w7.pngwing.com/pngs/221/248/png-transparent-mountain-bike-bicycle-fork-cycling-trinx-bikes-bicycle-blue-bicycle-frame-bicycle.png);
+
+body {
+    /* background-color:red; */
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-right: -1px;
+    /* align-items: center; */
+}
+
+.container {
+    
+    
+    
+}
+
+.box {
+    /* margin-left: auto; */
+    left: 0 auto;
+    width:auto;
+    margin: 10px;
+    width: 40%;
+
+    /* background-color: red; */
+
+}
+
+
+.info{
+    margin-top: 30px;
+    /* background-color: blue; */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 650;
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 55px;
+
+    color: #000000;
+}
+
+.text {
+    color: #1F425D ;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
+.description {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 20px;
+    color: #1F425D;
+    /* letter-spacing: 2px; */
+    text-transform: uppercase;
+}
+
+.link {
+    margin-top: 5rem;
+    width: 200px;
+    height: 50px;
+    background: #031A2B;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    /* box-shadow: 9px 9px 0px rgba(0, 0, 0, 0.3); */
+    
+}
+
+
+.btn{
+    /* margin-top: 5rem; */
+    width: 200px;
+    height: 50px;
+    font-family: sans-serif;
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 15px;
+    line-height: 36px;
+    background: #031A2B;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    /* letter-spacing: 2px; */
+}
+
+.btn:hover{
+    background-color: #1F425D;
+    /* transform: scale(1.1); */
+}
+
+img{
+   
+    height: 80vh;
+    /* top: 50px;        */
+    /* background-color: red; */
+    margin-right: 30px;
+    width: 50vw;
+    background : url('/src/assets/images/bicycle.png'); 
+    background-size: cover;
+    /* transform:  */
+    transform: scale(1.2) matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+.svg {
+    height: 20vh;
+    width: 110vw;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 100px;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+
+.social_media{
+    margin-top: 30px;
+    margin-left: 5PX;
+    /* background-color: red; */
+    height: 3rem;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    
+}
+
+.social{
+    margin-left: 0px;
+    /* font-size: 50px; */
+    
+}
+
+.social:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+}
+
+mat-icon{
+    
+    font-weight: 600;
+}
