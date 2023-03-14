@@ -6,8 +6,8 @@ import { LoginComponent } from './login/login.component';
 import { ProductComponent } from './pages/product/product.component';
 
 const routes: Routes = [
-  {path:'',component:HeroComponent},
-  {path:'login' , component:LoginComponent},
+  {path:'',component:LoginComponent},
+  {path:'home' , component:HeroComponent},
   {path:'products', component:ProductComponent},
   {path:'contact' , component:ContactComponent}
 ];
